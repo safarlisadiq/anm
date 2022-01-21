@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#all {
+    width: 100%;
+    height: 609px;
+    position: relative;
+    overflow: hidden;
+}
+#nyc {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/istockphoto-1005771222-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+
+}
+#php {
+    width: 200px;
+    height: 100px;
+    background-image: url('img/PHP.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 300px;
+    left: 14%;
+    animation-name: php;
+    animation-duration: 2s;
+    /* z-index: 2; */
+    /* animation-iteration-count: 2; */
+    /* animation-timing-function: ease-in; */
+
+}
+@keyframes php {
+    from {
+        left: -100px;
+    }
+       to {left: 14%;
+    }
+}
+#python {
+    width: 180px;
+    height: 110px;
+    background-image: url('img/1200px-Python-logo-notext.svg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 300px;
+    right: 14%;
+    animation-name: python;
+    animation-duration: 2s;
+    /* animation-iteration-count: 2; */
+
+}
+@keyframes python {
+    from {
+        right: -100px;
+    }
+       to {right: 14%;
+    }
+}
+#vs {
+    width: 180px;
+    height: 110px;
+    background-image: url('img/rlogo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 300px;
+    right: 45%;
+    animation-name: logovs;
+    animation-duration: 2s;
+    /* animation-iteration-count: 2; */
+
+}
+@keyframes logovs {
+    from {
+        bottom: -100px;
+    }
+       to {bottom: 50%;
+    }
+
+}
+#laravel {
+    width: 200px;
+    height: 100px;
+    background-image: url('img/lara.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 200px;
+    left: 14%;
+    animation-name: laravel;
+    animation-duration: 2.5s;
+    /* animation-iteration-count: 2; */
+
+}
+@keyframes laravel {
+    from {
+        left: -100px;
+    }
+       to {left: 14%;
+    }
+
+}
